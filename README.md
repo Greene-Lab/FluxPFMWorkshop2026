@@ -22,7 +22,7 @@ The goal is to move beyond thinking about reliability as a single number and ins
 
 ## Full-Data Connectivity
 
-We will begin by examining functional connectivity calculated using all good (post-motion censored at .2 FD) data from one participant in the child Precision Functional Mapping (cPFM) [dataset](#workshop-resources).
+We will begin by examining functional connectivity calculated using all good (post-motion censored at .2 FD) data from one participant in the [child Precision Functional Mapping (cPFM) dataset](#workshop-resources).
 
 **Topics covered:**
 
@@ -119,6 +119,7 @@ point
 # Workshop Resources
 
 [cPFM Dataset](https://openneuro.org/datasets/ds007196)
+
 [Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench)
 
 
