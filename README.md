@@ -35,14 +35,44 @@ We will begin by examining functional connectivity calculated using all good (po
 ### Files and Resources
 > **Exercise 1 files:** [Exercise 1: folder](LINK_HERE)
 
+*** maybe put the instructions to the notebook here??
 
+---
 
+## How Much Data Is Enough?
 
+Next, we will compare reliability estimates generated from an example of more "standard" amounts of resting state fMRI data (one session).
 
+- Run again on single session
+- discuss
 
+The purpose of this exercise is to directly visualize how functional connectivity estimates change as more data are included.
 
+*** maybe put the instructions to the notebook here?? add the cell or something?
 
+---
 
+## Iterations and Sampling Variability
+
+Using the same amount of data does not necessarily produce the same result every time.
+
+We will repeat the analysis using different subsets or iterations of the available data and examine how the resulting connectivity estimates change from iteration to iteration.
+
+This exercise highlights the variability that can occur from moment to moment and how the specific samples of data can impact reliability. This emphasizes why estimates with more data show a more generalizable picture of an individual's connectivity.
+
+*** maybe put the instructions to the notebook here?? add the cell or something?
+
+---
+
+## Optional: Intraclass Correlation
+
+If computational requirements allow, we may also calculate intraclass correlation (ICC) locally for an example participant.
+
+This exercise would provide a quantitative complement to the visual reliability comparisons above.
+
+Then discuss differences here.....
+
+*** maybe put the instructions to the notebook here?? add the cell or something?
 
 ---
 
@@ -50,31 +80,74 @@ We will begin by examining functional connectivity calculated using all good (po
 
 
 
-text
+Precision functional mapping allows functional networks to be accurately identified within individual participants, rather than relying exclusively on group-average network definitions. These group average networks often attribute connectivity from specific regions in an individual's brain to the "incorrect" network. This can obviously add noise to our analyses. 
+
+In this section, we will explore how individual-specific networks are identified using Infomap and how methodological choices—including graph density thresholds and the amount of available data—affect the resulting network assignments.
+
+## Exploring Infomap Thresholds
+
+We will begin by examining network assignments generated across different Infomap thresholds.
+
+The goal is to develop an intuition for how thresholding changes the graph used for community detection and, consequently, the resulting network assignments.
+
+We will examine thresholds ranging from extremely sparse graphs to increasingly dense graphs and compare the resulting network solutions.
+
+**Topics covered:**
+
+- What an Infomap threshold represents
+- Network assignments at sparse thresholds
+- Network assignments at increasingly dense thresholds
+- How threshold choice influences the resulting network assignment
+
+### Files and Resources
+
+> **Workshop files:** [Infomap threshold resources](LINK_HERE)
+
+---
+
+## Comparing Networks with Raw Functional Connectivity
+
+A network assignment should not be evaluated solely by looking at the network map itself.
+
+We will overlay or compare identified networks with the participant's underlying functional connectivity patterns. This provides an important quality-assessment step for determining whether the assigned network organization is supported by the participant's actual connectivity data.
+
+**Topics covered:**
+
+- Viewing individual-specific network assignments
+- Examining raw connectivity patterns
+- Comparing network boundaries and assignments with connectivity
+- Using raw connectivity as a PFM quality-assessment tool
+
+### Files and Resources
+
+> **Workshop files:** [Network/connectivity comparison resources](LINK_HERE)
 
 
-will
+---
 
+## How Data Quantity Affects Network Identification
 
-go
+We will repeat the network-identification procedure using substantially less data.
 
+For example, networks can be generated using only approximately 5–10 minutes of data and compared with networks generated using the participant's complete dataset.
 
+Participants can then repeat the connectivity-overlap exercise above to determine whether network assignments derived from limited data remain well supported by the underlying connectivity patterns.
 
-here
+### Files and Resources
 
+> **Workshop files:** [Limited-data Infomap resources](LINK_HERE)
 
-at 
+---
 
+## Single-Session Infomap
 
-some
+As an additional demonstration, we will rerun Infomap using data from only one session and compare the resulting network assignments with those obtained using the complete dataset.
 
+> **Workshop development note:** Identify a participant/example with particularly clear full-data network organization for this exercise.
 
-point
+### Files and Resources
 
-
-
-
-
+> **Workshop files:** [Single-session Infomap resources](LINK_HERE)
 
 
 
@@ -83,35 +156,82 @@ point
 
 # Exercise 3: Quality Assessment
 
+Precision functional mapping depends on the quality of the data used to generate individual-level estimates. Quality assessment therefore involves more than simply determining whether a processing pipeline completed successfully.
+
+In this section, we will examine several approaches for evaluating data quality and explore how decisions about motion, individual runs, and surface alignment can influence PFM results.
+
+## PFM Quality-Assessment Outputs
+
+We will begin by reviewing example quality-assessment outputs and discussing how they can be used to evaluate individual-level data and results.
+
+This section will include outputs from a tool developed by Chuck Lynch and examples of how these measures can be incorporated into a PFM workflow.
+
+**Topics covered:**
+
+- Interpreting PFM QA outputs
+- Identifying potential problems in individual datasets
+- Connecting QA metrics with the resulting functional connectivity and network estimates
+
+### Files and Resources
+
+> **Workshop files:** [PFM QA resources](LINK_HERE)
+
+---
+
+## Chuck's tool outputs
+
+something about what the tool does here and the main outputs
+
+- we should go through the outputs here. 
+
+### Files and Resources
+
+> **Workshop files:** [Border correctness resources](LINK_HERE)
+
+---
+
+## Motion and Individual Runs
+
+Motion can vary substantially across runs within the same participant.
+
+We will examine motion plots from individual runs and use **cPFM08** ??? as an example of a participant containing particularly noisy runs.
+
+We will compare results generated from:
+
+1. The complete dataset
+2. The dataset after removing selected high-motion or otherwise poor-quality runs
+
+The corresponding `dtseries` files will be provided so that participants can directly compare the effect of removing these runs on downstream results.
+
+**Topics covered:**
+
+- Reading run-level motion plots
+- Identifying unusually noisy runs
+- Comparing full-data results with results after run removal
+- Determining when individual runs may meaningfully affect PFM estimates
+
+### Files and Resources here??
 
 
-text
+---
 
+## Framewise Displacement Thresholds and Motion Floors
 
-will
+Finally, we will discuss how framewise displacement (FD) thresholds are used when determining which data should be retained.
 
+We will examine the consequences of different FD thresholds and discuss the concept of motion floors in the context of precision functional mapping.
 
-go
+**Topics covered:**
 
+- Framewise displacement
+- Choosing an FD threshold
+- How censoring decisions affect the amount of usable data
+- Motion floors
+- Balancing data quantity and data quality in individual-level analyses
 
+### Files and Resources
 
-here
-
-
-at 
-
-
-some
-
-
-point
-
-
-
-
-
-
-
+what files here???
 
 
 ---
