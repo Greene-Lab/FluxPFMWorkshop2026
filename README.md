@@ -4,26 +4,115 @@ This workshop provides a hands-on introduction to several practical consideratio
 
 The workshop is organized into three hands-on sections:
 
-1. [Reliability](#1-reliability)
-2. [Network Identification](#2-network-identification)
-3. [Quality Assessment](#3-quality-assessment)
+1. [Exercise 1: Reliability](#exercise-1-reliability)
+2. [Exercise 2: Network Identification](#exercise-2-network-identification)
+3. [Exercise 3: Quality Assessment](#exercise-3-quality-assessment)
 
 Each section includes example data and resources that can be used to work through the exercises.
 
 ---
 
-# 1. Reliability
+# Exercise 1: Reliability
+
+
+text
+
+
+will
+
+
+go
+
+
+
+here
+
+
+at 
+
+
+some
+
+
+point
+
+
+
+
+
+
+
+
 
 
 ---
 
-# 2. Network Identification
+# Exercise 2: Network Identification
+
+
+
+text
+
+
+will
+
+
+go
+
+
+
+here
+
+
+at 
+
+
+some
+
+
+point
+
+
+
+
+
+
 
 
 
 ---
 
-# 3. Quality Assessment
+# Exercise 3: Quality Assessment
+
+
+
+text
+
+
+will
+
+
+go
+
+
+
+here
+
+
+at 
+
+
+some
+
+
+point
+
+
+
+
+
+
+
 
 
 ---
