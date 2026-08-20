@@ -25,7 +25,7 @@ The goal is to move beyond thinking about reliability as a single number and ins
 We will begin by examining functional connectivity calculated using all good (post-motion censored at .2 FD) data from one participant in the [child Precision Functional Mapping (cPFM) dataset](#workshop-resources).
 
 **Summary of Reliability Method**
-![Alt Text](/FluxPFMWorkshop/01_Reliability/notebooks/cPFM_reliability.svg)
+![Alt Text](/01_Reliability/notebooks/cPFM_reliability.svg)
 
 **Topics covered:**
 
