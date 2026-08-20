@@ -40,7 +40,7 @@ Next, we will compare reliability estimates generated from an example of more "s
 
 The purpose of this exercise is to directly visualize how functional connectivity estimates change as more data are included.
 
-<img src="/01_Reliability/notebooks/images/truetime.png" width="300">
+<img src="/01_Reliability/notebooks/images/truetime.png" width="500">
 
 ---
 
@@ -52,7 +52,7 @@ We will repeat the analysis using different subsets or iterations of the availab
 
 This exercise highlights the variability that can occur from moment to moment and how the specific samples of data can impact reliability. This emphasizes why estimates with more data show a more generalizable picture of an individual's connectivity.
 
-<img src="/01_Reliability/notebooks/images/rands.png" width="300">
+<img src="/01_Reliability/notebooks/images/rands.png" width="500">
 
 ---
 
