@@ -23,7 +23,7 @@ The goal is to move beyond thinking about reliability as a single number and ins
 ## Calculating reliability of functional connectivity data using PFM data. 
 
 This method is based on previously published work in Laumann et al. 2015, Gordon et al. 2017 and others. You can also generate ICC as well, but this needs to be run on a cluster because of the compute demands. We are using Pearson's R as previously published for the workshop as these estimates run quickly.
-![Alt Text](/01_Reliability/notebooks/cPFM_reliability.svg)
+![Alt Text](/01_Reliability/notebooks/images/cPFM_reliability.svg)
 
 ## Connectivity and reliability using repeated sampling (8 sessions)
 
