@@ -20,9 +20,9 @@ Individual-level functional connectivity estimates depend heavily on the amount 
 
 The goal is to move beyond thinking about reliability as a single number and instead directly observe how an individual's functional connectivity estimates stabilize as more data are added.
 
-## Explanation of Reliability Method
+## Calculating reliability of functional connectivity data using PFM data. 
 
-This method is based on previously published work in Laumann et al. 2015, Gordon et al. 2017 and others. 
+This method is based on previously published work in Laumann et al. 2015, Gordon et al. 2017 and others. You can also generate ICC as well, but this needs to be run on a cluster because of the compute demands. We are using Pearson's R as previously published for the workshop as these estimates run quickly.
 ![Alt Text](/01_Reliability/notebooks/cPFM_reliability.svg)
 
 ## Full-Data Connectivity and Reliability
