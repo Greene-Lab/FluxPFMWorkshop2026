@@ -19,8 +19,9 @@ Please do the following if you haven't worked with neuroimaging data in Python b
 2. Open terminal.
 3. Create a workshop environment in terminal with the following command:
    - conda create -n FluxPFMWorkshop2026 python=3.11
-4. Then activate the environment
+4. Then activate the environment and get the required packages
    - conda activate FluxPFMWorkshop2026
+   - conda install -c conda-forge jupyter numpy pandas scipy matplotlib nibabel
 5. Check that you can launch Jupyter notebook
    - cd ~/Downloads/FluxPFMWorkshop2026
    - jupyter lab
