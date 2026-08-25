@@ -12,7 +12,7 @@ Each section includes example data and resources that can be used to work throug
 
 General or additional resources can be found here: [Workshop Resources](#workshop-resources)
 
-# Before the workshop (please follow if you plan to follow along in real time during the workshop!):
+# Before the workshop (please do this if you plan to follow along in real time!):
 
 Please do the following if you haven't worked with neuroimaging data in Python before:
 1. Install miniconda based on your OS: https://docs.conda.io/en/latest/miniconda.html
