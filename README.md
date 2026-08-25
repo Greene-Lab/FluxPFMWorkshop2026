@@ -18,12 +18,12 @@ Please do the following if you haven't worked with neuroimaging data in Python b
 1. Install miniconda based on your OS: https://docs.conda.io/en/latest/miniconda.html
 2. Open terminal.
 3. Create a workshop environment in terminal with the following command:
-   conda create -n FluxPFMWorkshop2026 python=3.11
+   - conda create -n FluxPFMWorkshop2026 python=3.11
 4. Then activate the environment
-   conda activate FluxPFMWorkshop2026
+   - conda activate FluxPFMWorkshop2026
 5. Check that you can launch Jupyter notebook
-   cd ~/Downloads/FluxPFMWorkshop2026
-   jupyter lab
+   - cd ~/Downloads/FluxPFMWorkshop2026
+   - jupyter lab
 6. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
    If needed, select: Kernel -> Change Kernel -> FluxPFMWorkshop2026
 
