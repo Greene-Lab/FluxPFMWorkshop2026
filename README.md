@@ -116,7 +116,8 @@ We will examine thresholds ranging from extremely sparse graphs to increasingly 
 
 ### Files and Resources
 
-> **Workshop files:** [Infomap threshold resources](LINK_HERE)
+> **Workshop files:** [(https://drive.google.com/drive/folders/14tp80ECrdLNIQUE2B_ESdMTfF-rjQSSi)](LINK_HERE)
+> 
 
 ---
 
