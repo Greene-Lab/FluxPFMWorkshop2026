@@ -16,7 +16,7 @@ General or additional resources can be found here: [Workshop Resources](#worksho
 
 Please do the following if you haven't worked with neuroimaging data in Python before:
 1. Download the workshop files.
-   - Either click the green code button at the top of this page, then "Download zip" or git clone if you already use Github.
+   - Either click the green "Code" button at the top of this page, then in the dropdown, click "Download ZIP" or git clone if you already use Github.
 3. Install miniconda based on your OS: https://docs.conda.io/en/latest/miniconda.html
 4. Open terminal (on Mac) or Anaconda/Miniconda Prompt (Windows).
    - On Mac: Open spotlight search at the top bar and type in terminal (click to launch).
