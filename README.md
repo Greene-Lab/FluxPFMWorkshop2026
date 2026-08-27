@@ -22,15 +22,23 @@ Please do the following if you haven't worked with neuroimaging data in Python b
    - On Mac: Open spotlight search at the top bar and type in terminal (click to launch).
    - On Windows: Open Anaconda Prompt or Miniconda Prompt via the start menu.
 4. Create a workshop environment in Terminal/Anaconda or Miniconda Prompt by entering the following command:
-   - conda create -n FluxPFMWorkshop2026 python=3.11
-5. Then activate the environment and get the required packages by entering the following command in Terminal/Anaconda or Miniconda Prompt.
-   - conda activate FluxPFMWorkshop2026
-   - conda install -c conda-forge jupyter numpy pandas scipy matplotlib nibabel
-6. Check that you can launch Jupyter notebook, by entering the following commands in Terminal/Anaconda or Miniconda Prompt.
-   - cd ~/Downloads/FluxPFMWorkshop2026
-       - Note: cd (change directory) to wherever you have placed the workshop folder, which could potentially be in your iCloud or OneDrive depending on your default download settings.
-   - jupyter lab
-7. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
+   ```conda create -n FluxPFMWorkshop2026 python=3.11```
+   
+6. Then activate the environment and get the required packages by entering the following command in Terminal/Anaconda or Miniconda Prompt.
+
+   ```conda activate FluxPFMWorkshop2026```
+
+   ```conda install -c conda-forge jupyter numpy pandas scipy matplotlib nibabel```
+
+8. Check that you can launch Jupyter notebook, by entering the following commands in Terminal/Anaconda or Miniconda Prompt.
+
+   ```cd ~/Downloads/FluxPFMWorkshop2026```
+
+   Note: cd (change directory) to wherever you have placed the workshop folder, which could potentially be in your iCloud or OneDrive depending on your default download settings.
+
+   ```jupyter lab```
+
+10. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
    If needed, select: Kernel -> Change Kernel -> FluxPFMWorkshop2026
 
 If you close out of Jupyter, you can launch this again by running steps 6 and 7.
