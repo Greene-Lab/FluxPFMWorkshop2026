@@ -118,7 +118,7 @@ We will examine thresholds ranging from extremely sparse graphs to increasingly 
 
 ### Files and Resources
 
-> **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgAm04ShFaTsTrkIz17Q1i1dAaCfynZdA2OIPQCns-5XYyo)
+> **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
 > 
 
 ---
@@ -193,6 +193,16 @@ This section will include outputs from a tool developed by Chuck Lynch and examp
 ### Files and Resources
 
 > **Workshop files:** [PFM QA resources](LINK_HERE)
+
+
+
+
+IF WE ARE GOING TO DO THE MIDTHICKNESS STUFF:
+
+> **Exercise 3 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgBKaVJn92MYRLjn7JjNv7FcAc0Uf_6JLL1ANs05Tz9t-FI)
+> 
+
+
 
 ---
 
