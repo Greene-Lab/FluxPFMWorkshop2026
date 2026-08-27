@@ -22,6 +22,7 @@ Please do the following if you haven't worked with neuroimaging data in Python b
    - On Mac: Open spotlight search at the top bar and type in terminal (click to launch).
    - On Windows: Open Anaconda Prompt or Miniconda Prompt via the start menu.
 4. Create a workshop environment in Terminal/Anaconda or Miniconda Prompt by entering the following command:
+
    ```conda create -n FluxPFMWorkshop2026 python=3.11```
    
 6. Then activate the environment and get the required packages by entering the following command in Terminal/Anaconda or Miniconda Prompt.
