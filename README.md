@@ -33,7 +33,7 @@ Please do the following if you haven't worked with neuroimaging data in Python b
 8. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
    If needed, select: Kernel -> Change Kernel -> FluxPFMWorkshop2026
 
-If you close out of Jupyter, you can launch this again by running steps 4 and 5.
+If you close out of Jupyter, you can launch this again by running steps 7 and 8.
 
 ---
 
