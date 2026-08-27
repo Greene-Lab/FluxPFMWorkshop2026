@@ -16,20 +16,21 @@ General or additional resources can be found here: [Workshop Resources](#worksho
 
 Please do the following if you haven't worked with neuroimaging data in Python before:
 1. Download the workshop files.
-2. Install miniconda based on your OS: https://docs.conda.io/en/latest/miniconda.html
-3. Open terminal (on Mac) or Anaconda/Miniconda Prompt (Windows).
+   - Either click the green code button at the top of this page, then "Download zip" or git clone if you already use Github.
+3. Install miniconda based on your OS: https://docs.conda.io/en/latest/miniconda.html
+4. Open terminal (on Mac) or Anaconda/Miniconda Prompt (Windows).
    - On Mac: Open spotlight search at the top bar and type in terminal (click to launch).
    - On Windows: Open Anaconda Prompt or Miniconda Prompt via the start menu.
-4. Create a workshop environment in Terminal/Anaconda or Miniconda Prompt by entering the following command:
+5. Create a workshop environment in Terminal/Anaconda or Miniconda Prompt by entering the following command:
    - conda create -n FluxPFMWorkshop2026 python=3.11
-5. Then activate the environment and get the required packages by entering the following command in Terminal/Anaconda or Miniconda Prompt.
+6. Then activate the environment and get the required packages by entering the following command in Terminal/Anaconda or Miniconda Prompt.
    - conda activate FluxPFMWorkshop2026
    - conda install -c conda-forge jupyter numpy pandas scipy matplotlib nibabel
-6. Check that you can launch Jupyter notebook, by entering the following commands in Terminal/Anaconda or Miniconda Prompt.
+7. Check that you can launch Jupyter notebook, by entering the following commands in Terminal/Anaconda or Miniconda Prompt.
    - cd ~/Downloads/FluxPFMWorkshop2026
        - Note: cd (change directory) to wherever you have placed the workshop folder, which could potentially be in your iCloud or OneDrive depending on your default download settings.
    - jupyter lab
-7. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
+8. In Jupyter, make sure that the notebook is using the FluxPFMWorkshop2026 kernel.
    If needed, select: Kernel -> Change Kernel -> FluxPFMWorkshop2026
 
 If you close out of Jupyter, you can launch this again by running steps 4 and 5.
