@@ -94,6 +94,8 @@ Then discuss differences here.....
 # Exercise 2: Network Identification
 
 
+NOTE TO SELF: ADD PICTURES AND SPECIFIC STEPS! 
+
 
 Precision functional mapping allows functional networks to be accurately identified within individual participants, rather than relying exclusively on group-average network definitions. These group average networks often attribute connectivity from specific regions in an individual's brain to the "incorrect" network. This can obviously add noise to our analyses. 
 
@@ -116,7 +118,7 @@ We will examine thresholds ranging from extremely sparse graphs to increasingly 
 
 ### Files and Resources
 
-> **Workshop files:** [Infomap files](https://drive.google.com/drive/folders/14tp80ECrdLNIQUE2B_ESdMTfF-rjQSSi)
+> **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgAm04ShFaTsTrkIz17Q1i1dAaCfynZdA2OIPQCns-5XYyo)
 > 
 
 ---
@@ -134,10 +136,6 @@ We will overlay or compare identified networks with the participant's underlying
 - Comparing network boundaries and assignments with connectivity
 - Using raw connectivity as a PFM quality-assessment tool
 
-### Files and Resources
-
-> **Workshop files:** [Network/connectivity comparison resources](LINK_HERE)
-
 
 ---
 
@@ -152,10 +150,14 @@ Participants can then repeat the connectivity-overlap exercise above to determin
 ### Files and Resources
 
 > **Workshop files:** [Limited-data Infomap resources](LINK_HERE)
+> ADD SHORT SESSION CONNECTIVITY HERE
+> ADD SHORT SESSION NETWORK MAP HERE
 
 ---
 
 ## Single-Session Infomap
+
+MERGE THIS SECTION INTO THE PREVIOUS!!!!!!
 
 As an additional demonstration, we will rerun Infomap using data from only one session and compare the resulting network assignments with those obtained using the complete dataset.
 
@@ -163,7 +165,7 @@ As an additional demonstration, we will rerun Infomap using data from only one s
 
 ### Files and Resources
 
-> **Workshop files:** [Single-session Infomap resources](LINK_HERE)
+
 
 
 
