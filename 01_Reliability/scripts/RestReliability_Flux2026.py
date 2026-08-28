@@ -308,20 +308,6 @@ def get_corrs(true_data_zmat,test_data, max_minutes, all_data_dict, TR, subid):
             # grab the correct amount of data as new array
             sample_data = test_data[:, start_point:(start_point+time_frames)]
 
-
-            ### below added to quickly make 5,10,15,and 20 min matrices for talk - DVD
-            # if t == 20:
-            #     ### delete after testing
-            #     print(sample_data.shape)
-            #     print(TR)
-            #     new_shape = (333, 1084)
-            #     sample_data = sample_data[:, :new_shape[1]]
-            #     plot_corrs(sample_data,'20min')
-            #     sys.exit()
-
-
-            #print(sample_data.shape)
-
             # compute SAMPLE correlation and z transform
             # logger.debug('Creating SAMPLE Data Matrix...')
             sample_data_mat = np.corrcoef(sample_data)
@@ -378,6 +364,7 @@ def plot_final(all_data_dict, outdir, subid, truetime, fd_thresh, rands, num_of_
         plot_alpha = 0.8
 
         # Plot each corr list with a different color and connected dots
+        #fig, ax = plt.subplots(figsize=(14, 5))
         fig, ax = plt.subplots()
         for i in range(len(corr_value_lists)):
             corr_values = corr_value_lists[i]

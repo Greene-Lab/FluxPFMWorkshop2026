@@ -380,7 +380,7 @@ def plot_final(all_data_dict, outdir, subid, truetime, fd_thresh, rands, num_of_
         plot_alpha = 0.8
 
         # Plot each corr list with a different color and connected dots
-        fig, ax = plt.subplots(figsize=(14, 5))
+        fig, ax = plt.subplots(figsize=(20, 5)) 
         for i in range(len(corr_value_lists)):
             corr_values = corr_value_lists[i]
             # Plot all data points for the current correlation list
