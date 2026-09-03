@@ -213,8 +213,29 @@ To view how density thresholds impact Infomap community assignments (this assume
     - **NOTE**: This may take a little bit, given this is connectivity derived from ~5 hours 40 minutes of data, but we have reduced it to only the left hemisphere to help. 
     - Slect other regions of the cortex and other networks. How does the connectivity line up with the individual-specific network assignments?
 
+---
 
+## How Low Data Quantity Can Bias Individual Network Identification
 
+Many are tempted to look at individual specific networks using lower amounts of data. This is understandable given the cost and challenges of collecting PFM data. However, here we will demonstrate how smaller amounts of data may provide a random snapshot, rather than a more stable representation of an individual's functional connectivity, and therefore add some "noise" to network organization. 
+
+We will repeat the network-connectivity comparisons, but this time using substantially less data. We will now compare 5, 10, and 15 minute samples of the same individual's data with their network maps (dereived from their whole session) to emphasize how less data may not give a stable idea of connectivity.
+
+### Hands on steps
+
+1. Make sure the final network map file is in the top layer
+
+![Alt Text](/02_NetworkID/images/TopLayer.png)
+
+2. Make dynconns for the 5, 10, and 15 minute samples like we did previously. Click Connectivity, and check the boxes next to the 3 new dtseries to add dynconns to the layers
+
+![Alt Text](/02_NetworkID/images/AddShorterDynconns.png)
+
+3. Add them to the layers in the main Connectome Workbench Viewer screen. 
+
+![Alt Text](/02_NetworkID/images/AllDynconns.png)
+
+Now, we can click around and look at how the length of collected resting state data can influence the connectivity we see form the same vertex on the brain. Click around and see how the shorter snapshots of resting state connectivity may not represent the stable connectivity for the individual, and influence networks maps if they are derived from non-PFM level data. 
 
 
 
