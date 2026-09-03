@@ -237,9 +237,23 @@ We will repeat the network-connectivity comparisons, but this time using substan
 
 ![Alt Text](/02_NetworkID/images/AllDynconns.png)
 
-Now, we can click around and look at how the length of collected resting state data can influence the connectivity we see form the same vertex on the brain. Click around and see how the shorter snapshots of resting state connectivity may not represent the stable connectivity for the individual, and influence networks maps if they are derived from non-PFM level data. 
+Now, we can click around and look at how the length of collected resting state data can influence the connectivity we see from the same vertex on the brain. Click around and see how the shorter snapshots of resting state connectivity may not represent the stable connectivity for the individual. These "snapshots" can then influence network maps that are derived from non-PFM level data. 
 
+### Full Data Example
 
+![Alt Text](/02_NetworkID/images/FullData.png)
+
+### 15 Minutes Example
+
+![Alt Text](/02_NetworkID/images/Min15.png)
+
+### 10 Minutes Example
+
+![Alt Text](/02_NetworkID/images/Min10.png)
+
+### 5 Minutes Example 
+
+![Alt Text](/02_NetworkID/images/Min5.png)
 
 
 ---
