@@ -134,7 +134,7 @@ We will examine Infomap outputs derived from density thresholds ranging from ext
 2. Load surface files
    - File -> Open File
    - Change "Files of type" at bottom to "Any file"
-   - Browse to your files downloaded from the [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+   - Browse to your files downloaded from the [UCSD OneDrive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
    - Choose the following two files and click open:
         - Conte69.R.inflated.32k_fs_LR.surf.gii
         - Conte69.L.inflated.32k_fs_LR.surf.gii
@@ -156,7 +156,23 @@ We will examine Infomap outputs derived from density thresholds ranging from ext
 
 ## Understanding Infomap Assignments Based on Varying Density Thresholds
 
-Network assignments derived from Infomap community detection require connectivity matrices with varying density thresholds. In our work, we use 18 thresholds from .1% to 5%. 
+Network assignments derived from Infomap community detection require connectivity matrices with varying density thresholds. In our work, we use 18 thresholds from .1% to 5%.
+
+By comparing the community assignments created from each density threshold, then choosing a best fit based on all the info across all thresholds, we are able to choose network assignments that are highly accurate for an individual. 
+
+To view how density thresholds impact Infomap community assignments: 
+
+1. Open the following file in Connectome Workbench Viewer
+   - sub-cPFM05_Infomap_Raw_Assignment.dtseries.nii
+2. Select the file on a layer and click the wrench to change the color palette to "power_surf" to help distinguish between community assignments
+---PIC
+
+3. Now scroll through the "Map" layers to see Infomap communities created from the strongest .1% (Map "1 seconds") to strongest 5% (Map "18 seconds") functional connections. 
+
+--- PIC opf MAP
+
+-- PIC OF .1% PIC OF 5%
+
 
 
 
