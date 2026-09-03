@@ -94,14 +94,17 @@ If computational requirements allow, we may also calculate intraclass correlatio
 
 This exercise would provide a quantitative complement to the visual reliability comparisons above.
 
-Then discuss differences here.....
-
-*** maybe put the instructions to the notebook here?? add the cell or something?
-
 ---
 
 # Exercise 2: Network Identification
 
+Precision functional mapping allows functional networks to be accurately identified within individual participants, rather than relying exclusively on group-average network definitions. These group average networks often attribute connectivity from specific regions of an individual's brain to the "incorrect" network. This can add noise to our analyses. 
+
+In this section, we will explore how individual-specific networks are identified using Infomap and how methodological choices—including graph density thresholds and the amount of available data affect the resulting network assignments.
+
+![Alt Text](/02_NetworkID/images/networks_example.png)
+
+![Alt Text](/02_NetworkID/images/connectivity_example.png)
 
 
 ---
