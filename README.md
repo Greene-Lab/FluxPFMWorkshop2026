@@ -103,8 +103,80 @@ Precision functional mapping allows functional networks to be accurately identif
 In this section, we will explore how individual-specific networks are identified using Infomap and how methodological choices—including graph density thresholds and the amount of available data affect the resulting network assignments.
 
 ![Alt Text](/02_NetworkID/images/networks_example.png)
-
 ![Alt Text](/02_NetworkID/images/connectivity_example.png)
+
+### Files and Resources
+> **Exercise 2 files:** [UCSD OneDrive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+> 
+
+## Exploring Infomap Thresholds
+
+We will begin by examining network assignments generated across different Infomap thresholds.
+
+The goal is to develop an intuition for how thresholding changes the graph used for community detection and, consequently, the resulting network assignments.
+
+We will examine Infomap outputs derived from density thresholds ranging from extremely sparse graphs to increasingly dense graphs and discuss how these densities affect the resulting network solution.
+
+**Topics covered:**
+
+- What an Infomap threshold represents
+- Network assignments at sparse thresholds
+- Network assignments at increasingly dense thresholds
+- How threshold choice influences the resulting network assignment
+
+---
+
+## Initial Workbench Setup
+
+1. Open Connectome Workbench Viewer
+   - wb_view either in the search bar or terminal
+   - click cancel on recent files window
+2. Load surface files
+   - File -> Open File
+   - Change "Files of type" at bottom to "Any file"
+   - Browse to your files downloaded from the [UCSD OneDrive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+   - Choose the following two files and click open:
+        - Conte69.R.inflated.32k_fs_LR.surf.gii
+        - Conte69.L.inflated.32k_fs_LR.surf.gii
+3. Load Network Map
+   - File -> Open File
+   - Browse to same downloaded folder
+   - Choose the following file and click open:
+      - sub-cPFM05_Final_Network_Map.dscalar.nii
+4. Repeat the process above and load the following files
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only.dtseries.nii
+   - sub-cPFM05_Infomap_Raw_Assignment.dtseries.nii
+     
+   (BELOW ARE OPTIONAL)
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_5min_crop.dtseries.nii
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_10min_crop.dtseries.nii
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_15min_crop.dtseries.nii
+
+---
+
+## Understanding Infomap Assignments Based on Varying Density Thresholds
+
+Network assignments derived from Infomap community detection require connectivity matrices with varying density thresholds. In our work, we use 18 thresholds from .1% to 5%.
+
+By comparing the community assignments created from each density threshold, then choosing a best fit based on all the info across all thresholds, we are able to choose network assignments that are highly accurate for an individual. 
+
+To view how density thresholds impact Infomap community assignments: 
+
+1. Open the following file in Connectome Workbench Viewer
+   - sub-cPFM05_Infomap_Raw_Assignment.dtseries.nii
+2. Select the file on a layer and click the wrench to change the color palette to "power_surf" to help distinguish between community assignments
+---PIC
+
+3. Now scroll through the "Map" layers to see Infomap communities created from the strongest .1% (Map "1 seconds") to strongest 5% (Map "18 seconds") functional connections. 
+
+--- PIC opf MAP
+
+-- PIC OF .1% PIC OF 5%
+
+
+
+
+
 
 
 ---
