@@ -209,7 +209,8 @@ To view how density thresholds impact Infomap community assignments (this assume
 
 ![Alt Text](/02_NetworkID/images/DynconnInLayer.png)
 
-4. Click around cortex, noting the connectivity map after un-checking the Final Network Map overlay. 
+4. Click around cortex, noting the connectivity map after un-checking the Final Network Map overlay.
+    - **NOTE**: This may take a little bit, given this is connectivity derived from ~5 hours 40 minutes of data, but we have reduced it to only the left hemisphere to help. 
     - Slect other regions of the cortex and other networks. How does the connectivity line up with the individual-specific network assignments?
 
 
