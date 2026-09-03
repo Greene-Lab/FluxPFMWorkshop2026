@@ -106,7 +106,7 @@ In this section, we will explore how individual-specific networks are identified
 ![Alt Text](/02_NetworkID/images/connectivity_example.png)
 
 ### Files and Resources
-> **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+> **Exercise 2 files:** [UCSD OneDrive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
 > 
 
 ## Exploring Infomap Thresholds
@@ -123,6 +123,44 @@ We will examine Infomap outputs derived from density thresholds ranging from ext
 - Network assignments at sparse thresholds
 - Network assignments at increasingly dense thresholds
 - How threshold choice influences the resulting network assignment
+
+---
+
+## Initial Workbench Setup
+
+1. Open Connectome Workbench Viewer
+   - wb_view either in the search bar or terminal
+   - click cancel on recent files window
+2. Load surface files
+   - File -> Open File
+   - Change "Files of type" at bottom to "Any file"
+   - Browse to your files downloaded from the [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+   - Choose the following two files and click open:
+        - Conte69.R.inflated.32k_fs_LR.surf.gii
+        - Conte69.L.inflated.32k_fs_LR.surf.gii
+3. Load Network Map
+   - File -> Open File
+   - Browse to same downloaded folder
+   - Choose the following file and click open:
+      - sub-cPFM05_Final_Network_Map.dscalar.nii
+4. Repeat the process above and load the following files
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only.dtseries.nii
+   - sub-cPFM05_Infomap_Raw_Assignment.dtseries.nii
+     
+   (BELOW ARE OPTIONAL)
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_5min_crop.dtseries.nii
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_10min_crop.dtseries.nii
+   - sub-cPFM05_0.2FDcens_6.0mmSmoothed_Left_Cortex_Only_15min_crop.dtseries.nii
+
+---
+
+## Understanding Infomap Assignments Based on Varying Density Thresholds
+
+Network assignments derived from Infomap community detection require connectivity matrices with varying density thresholds. In our work, we use 18 thresholds from .1% to 5%. 
+
+
+
+
 
 
 ---
