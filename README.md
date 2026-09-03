@@ -213,7 +213,7 @@ To view how density thresholds impact Infomap community assignments (this assume
 
 4. Click around cortex, noting the connectivity map after un-checking the Final Network Map overlay.
     - **NOTE**: This may take a little bit, given this is connectivity derived from ~5 hours 40 minutes of data, but we have reduced it to only the left hemisphere to help. 
-    - Slect other regions of the cortex and other networks. How does the connectivity line up with the individual-specific network assignments?
+    - Select other regions of the cortex and other networks. How does the connectivity line up with the individual-specific network assignments?
 
 ---
 
@@ -221,7 +221,7 @@ To view how density thresholds impact Infomap community assignments (this assume
 
 Many are tempted to look at individual specific networks using lower amounts of data. This is understandable given the cost and challenges of collecting PFM data. However, here we will demonstrate how smaller amounts of data may provide a random snapshot, rather than a more stable representation of an individual's functional connectivity, and therefore add some "noise" to network organization. 
 
-We will repeat the network-connectivity comparisons, but this time using substantially less data. We will now compare 5, 10, and 15 minute samples of the same individual's data with their network maps (dereived from their whole session) to emphasize how less data may not give a stable idea of connectivity.
+We will repeat the network-connectivity comparisons, but this time using substantially less data. We will now compare 5, 10, and 15 minute samples of the same individual's data with their network maps (derived from their whole session) to emphasize how less data may not give a stable idea of connectivity.
 
 ### Hands on steps
 
