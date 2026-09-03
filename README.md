@@ -160,18 +160,57 @@ Network assignments derived from Infomap community detection require connectivit
 
 By comparing the community assignments created from each density threshold, then choosing a best fit based on all the info across all thresholds, we are able to choose network assignments that are highly accurate for an individual. 
 
+### Hands on steps
+
 To view how density thresholds impact Infomap community assignments: 
 
 1. Open the following file in Connectome Workbench Viewer
    - sub-cPFM05_Infomap_Raw_Assignment.dtseries.nii
-2. Select the file on a layer and click the wrench to change the color palette to "power_surf" to help distinguish between community assignments
----PIC
+2. Select the file on a layer
 
-3. Now scroll through the "Map" layers to see Infomap communities created from the strongest .1% (Map "1 seconds") to strongest 5% (Map "18 seconds") functional connections. 
+![Alt Text](/02_NetworkID/images/WB_FileLayer.png)
 
---- PIC opf MAP
+3. Click the wrench to change the color palette to "power_surf" to help distinguish between community assignments
 
--- PIC OF .1% PIC OF 5%
+![Alt Text](/02_NetworkID/images/WB_Palette.png)
+
+4. Now scroll through the "Map" layers to see Infomap communities created from the strongest .1% (Map "1 seconds") to strongest 5% (Map "18 seconds") functional connections. 
+
+![Alt Text](/02_NetworkID/images/WB_Map.png)
+
+We can now look at the difference in communities assigned given the .1% strongest connections 
+![Alt Text](/02_NetworkID/images/point1percent.png)
+
+vs the 5% strongest connections
+![Alt Text](/02_NetworkID/images/5percent.png)
+
+
+---
+
+## Comparing Networks with Raw Functional Connectivity
+
+A network assignment should not be evaluated solely by looking at the final network map itself.
+
+We will overlay and compare identified networks with the participant's underlying functional connectivity patterns. This provides an important quality-assessment step for determining whether the assigned network organization is supported by the participant's actual connectivity data.
+
+### Hands on steps
+
+To view how density thresholds impact Infomap community assignments (this assumed you loaded all the files listed above in the Initial Workbench Setup section): 
+
+1. Select the final network map file in the top layer of Connectome Workbench Viewer
+
+![Alt Text](/02_NetworkID/images/FinalNetworkMapLayer.png)
+
+2. Click connectivity and check the "layer" box to create a dynconn for the full data .dtseries file
+
+![Alt Text](/02_NetworkID/images/DynconnCheckmark.png)
+
+3. Place the dynconn in the layer below the Final Network Map
+
+![Alt Text](/02_NetworkID/images/DynconnInLayer.png)
+
+4. Click around cortex, noting the connectivity map after un-checking the Final Network Map overlay. 
+    - Slect other regions of the cortex and other networks. How does the connectivity line up with the individual-specific network assignments?
 
 
 
