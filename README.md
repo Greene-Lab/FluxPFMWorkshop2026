@@ -105,6 +105,7 @@ In this section, we will explore how individual-specific networks are identified
 ![Alt Text](/02_NetworkID/images/networks_example.png)
 ![Alt Text](/02_NetworkID/images/connectivity_example.png)
 
+### Files and Resources
 > **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
 > 
 
