@@ -103,8 +103,25 @@ Precision functional mapping allows functional networks to be accurately identif
 In this section, we will explore how individual-specific networks are identified using Infomap and how methodological choices—including graph density thresholds and the amount of available data affect the resulting network assignments.
 
 ![Alt Text](/02_NetworkID/images/networks_example.png)
-
 ![Alt Text](/02_NetworkID/images/connectivity_example.png)
+
+> **Exercise 2 files:** [UCSD OneDive Share](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/greene-lab_ucsd_edu/IgDGiIjyJqF_SKeGlxs17LH_AQp5ZDRoLXhGPziV59X8Uro)
+> 
+
+## Exploring Infomap Thresholds
+
+We will begin by examining network assignments generated across different Infomap thresholds.
+
+The goal is to develop an intuition for how thresholding changes the graph used for community detection and, consequently, the resulting network assignments.
+
+We will examine Infomap outputs derived from density thresholds ranging from extremely sparse graphs to increasingly dense graphs and discuss how these densities affect the resulting network solution.
+
+**Topics covered:**
+
+- What an Infomap threshold represents
+- Network assignments at sparse thresholds
+- Network assignments at increasingly dense thresholds
+- How threshold choice influences the resulting network assignment
 
 
 ---
