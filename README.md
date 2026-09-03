@@ -57,9 +57,9 @@ The goal is to move beyond thinking about reliability as a single number and ins
 This method is based on previously published work in Laumann et al. 2015, Gordon et al. 2017 and others. You can also generate ICC as well, but this needs to be run on a cluster because of the compute demands. We are using Pearson's R as previously published for the workshop as these estimates run quickly.
 ![Alt Text](/01_Reliability/notebooks/images/cPFM_reliability.svg)
 
-## Connectivity and reliability using repeated sampling (8 sessions)
+## Connectivity and reliability using repeated sampling 
 
-We will begin by examining functional connectivity and reliability calculated using 8 sessions of good (post-motion censored at .2 FD) data from one participant in the [child Precision Functional Mapping (cPFM) dataset](#workshop-resources). Our default settings are using 60 minutes for our high confidence subset, and using the remaining data for our test subset.
+We will begin by examining functional connectivity and reliability calculated using 12 sessions of good (post-motion censored at .2 FD) data from one participant in the [child Precision Functional Mapping (cPFM) dataset](#workshop-resources). Our default settings are using 60 minutes for our high confidence subset, and using the remaining data for our test subset. Note: This is not meant to be prescriptive in terms of sessions, but the cPFM dataset (which contains this participant) was collected with the intent to test how much data is necessary.
 
 ### Files and Resources
 > **Exercise 1 files:** [Exercise 1: folder](https://github.com/Greene-Lab/FluxPFMWorkshop2026/tree/main/01_Reliability)
@@ -88,9 +88,11 @@ This exercise highlights the variability that can occur from moment to moment an
 
 ---
 
-## Optional: Intraclass Correlation
+## Note: Intraclass Correlation (ICC)
 
-If computational requirements allow, we may also calculate intraclass correlation (ICC) locally for an example participant.
+You can also calculate ICC as a reliability metric, but this requires a high compute cluster so we will not be calculating this in real time. We have included a figure from our accepted paper, showing that it is very similar to the Pearson's r figure.
+
+<img src="/01_Reliability/notebooks/images/cPFM_ICC.png" width="500">
 
 This exercise would provide a quantitative complement to the visual reliability comparisons above.
 
