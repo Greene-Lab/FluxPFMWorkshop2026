@@ -266,7 +266,3 @@ Now, we can click around and look at how the length of collected resting state d
 
 
 
-
-
-we can put citations and maybe links or stuff that doesn't fit above here. 
-
