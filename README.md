@@ -256,6 +256,12 @@ Now, we can click around and look at how the length of collected resting state d
 ![Alt Text](/02_NetworkID/images/Min5.png)
 
 
+# Exercise 3: Quality Assurance
+
+## Motion 
+In developmental resting state fMRI research, there is a tradeoff: the stricter the motion threshold, the less amount of data you can include for each subject. The impact of motion on resting state functional connectivity is well documented, and generally, children have greater motion in an MRI scanner compared to adults. In Exercise 3, we will explore how changing the motion threshold has an impact on the reliability of FC in an individual child.
+
+
 ---
 
 # Workshop Resources
@@ -263,6 +269,8 @@ Now, we can click around and look at how the length of collected resting state d
 [cPFM Dataset](https://openneuro.org/datasets/ds007196)
 
 [Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench)
+
+
 
 
 
