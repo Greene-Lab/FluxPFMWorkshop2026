@@ -262,17 +262,23 @@ Now, we can click around and look at how the length of collected resting state d
 > **Exercise 3 files:** [Exercise 1: folder](https://github.com/Greene-Lab/FluxPFMWorkshop2026/tree/main/03_QA)
 
 ## Motion 
-In developmental resting state fMRI research, there is a tradeoff: the stricter the motion threshold, the less amount of data you can include for each subject. The impact of motion on resting state functional connectivity is well documented, and generally, children have greater motion in an MRI scanner compared to adults. In Exercise 3, we will explore how changing the motion threshold has an impact on the reliability of FC in an individual child.
+In developmental resting state fMRI research, there is a tradeoff: the stricter the motion threshold, the less amount of data you can include for each subject. The impact of motion on resting state functional connectivity is well documented, and generally, children have greater motion in an MRI scanner compared to adults. In Exercise 3, we will explore how changing the motion threshold (with standard amounts of fMRI data) has an impact on the reliability of FC in an individual child.
 
 ![Alt Text](/03_QA/notebooks/images/FD.png)
 
-Here is the reliability curve for a child PFM participant at 0.2FD (5 contiguous frames), with 60 minutes of low-motion data used to generate the high confidence FC matrix:
+Here is the reliability curve for a child PFM participant at 0.2FD (5 contiguous frames), with 60 minutes of low-motion data used to generate the high confidence FC matrix and 12 sessions of data:
 ![Alt Text](/03_QA/notebooks/images/cPFM08_reliability_true60min_0.2FD_5contig_12visits_1000_Iterations.png)
 
-Here is the reliability curve for the same participant at 0.3FD (no contiguous frames), using 15 minutes to generate the high confidence FC matrix:
+Here is the reliability curve for the same participant at 0.3FD (no contiguous frames), using 15 minutes to generate the high confidence FC matrix and 12 sessions of data:
 ![Alt Text](/03_QA/notebooks/images/cPFM08_reliability_true15min_0.3FD_nocontig_12visits_1000_Iterations.png)
 
-You can see that the second curve that the same participant reaches a lower plateau, and even though technically the amount of data included is greater with more lenient 0.3 FD threshold (310 minutes) compared to the 0.2 threshold (230 minutes). 
+You can see that the second curve that the same participant reaches a lower plateau, and even though technically the total amount of data included is greater with more lenient 0.3 FD threshold (310 minutes) compared to the 0.2 threshold (230 minutes). 
+
+**Factors to consider in reliability (in no specific order):**
+1. Amount of data (in both generating the high confidence matrix and test matrices, number of sessions)
+2. Motion thresholding
+3. Single-echo vs. multi-echo
+4. Location (see Greene et al. 2020, Marek et al. 2018 for reliability of thalamocortical and cerebellocortical FC in adults in the Midnight Scan Club).
 
 ---
 
